@@ -4,33 +4,25 @@ import github from "./github.png";
 import linkedinSrc from "./navIcons/linkedin.svg";
 import githubSrc from "./navIcons/github.svg";
 import resume from "./resume.svg";
-import vue from "./vue.svg";
-import angular from "./angular.svg";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import download from "./download.svg";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
+import nextjs from "./tech/nextjs.svg";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
-import scss from "./tech/scss.svg";
-import zeta from './company/zeta.png';
-import fynd from "./company/fynd.jpeg";
-import fyndAcademy from "./company/fyndAcademy.svg";
-import kraftConcept from "./company/kraftConcept.jpg";
+
+
 
 import astroLoader from "./astro-loader.json";
-import carrent from "./carrent.png";
 import Lavoux from "./project/Lavoux.png";
-import disneyClone from "./project/DisneyClone.png";
-import webfolio from "./project/Webfolio.png";
+import coloseum from "./project/coloseum.png";
+import url from "./project/url.png";
 
 
 // import expIcon from "./navIcons/experience.svg";
@@ -207,35 +199,25 @@ export {
   about,
   projectsIcon,
   astroLoader,
-  zeta,
-  fynd,
-  fyndAcademy,
-  kraftConcept,
   download,
   Lavoux,
-  disneyClone,
-  webfolio,
+  coloseum,
+  url,
   linkedin,
   githubIcon, // new component for navbar
   github,     // png asset used elsewhere (projects)
   resume,
-  vue,
-  angular,
   css,
   docker,
-  figma,
   git,
   html,
   javascript,
   mongodb,
   nodejs,
-  scss,
+  nextjs,
   reactjs,
   redux,
   tailwind,
-  typescript,
-  threejs,
-  carrent,
   close,
   menu,
 };

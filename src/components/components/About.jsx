@@ -101,7 +101,7 @@ const About = () => {
           <img
             src={profile}
             alt="Vivek Pidugu"
-            className="rounded-xl w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover shadow-lg"
+            className="rounded-xl w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover shadow-lg mt-28 md:mt-20 lg:mt-32"
           />
         </motion.div>
       </div>

@@ -1,26 +1,18 @@
 import {
   javascript,
-  typescript,
   reactjs,
   redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  fynd,
-  fyndAcademy,
-  vue,
-  angular,
-  kraftConcept,
+  nextjs,
   Lavoux,
-  disneyClone,
-  scss,
-  threejs,
+  coloseum,
   expIcon,
   about,
   projectsIcon,
-  webfolio,
-  zeta,
+  url,
   linkedin,
   githubIcon, // import the navbar component
 } from "../assets";
@@ -74,21 +66,20 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Vue JS",
-    icon: vue,
+    name: "redux",
+    icon: redux,
   },
+  {
+    name: "Next Js",
+    icon: nextjs,
+  },
+  
   {
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+
+  
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -97,18 +88,12 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "Scss/Less",
-    icon: scss,
-  },
+  
   {
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  
   {
     name: "Git",
     icon: git,
@@ -209,10 +194,36 @@ const projects = [
   {
     name: "Lavoux",
     description:
-      "La Voux is a full-stack MERN e-commerce platform featuring product browsing, advanced search, and secure checkout with Stripe.It includes a robust backend with JWT authentication, Redis caching, and optimized REST APIs for high performance.The platform also offers an admin dashboard for managing products, orders, and users, with Docker-based deployment and CI/CD support.",
+      "La Voux is a full-stack MERN e-commerce platform featuring product browsing, advanced search, and secure checkout with Stripe.It includes a robust backend with JWT authentication, Redis caching, and optimized REST APIs for high performance.The platform also offers an admin dashboard for managing products, orders, and users, with Docker-based deployment and CI/CD support.and tested usng 500 concurrent user login with median response time of 150ms.",
     tags: [
       {
-        name: "ReactJs",
+        name: "NodeJs",
+        color: techColors.nodejs,
+      },
+      {
+        name: "MongoDb",
+        color: techColors.mongodb,
+      },
+      {
+        name: "ExpressJs",
+        color: techColors.default,
+      },
+      {
+        name: "Tailwind CSS",
+        color: techColors.tailwind,
+      },
+    ],
+    image: Lavoux,
+    source_code_link: "https://github.com/Pidugu-vivek/LaVoux",
+    live_link: "https://la-voux.vercel.app/",
+  },
+  {
+    name: "Colosseum",
+    description:
+      "Colosseum is a full-stack esports tournament management platform built to handle player registrations, match scheduling, and event operations for large-scale gaming competitions. It supports over 200 players with real-time updates, secure authentication, and role-based access for admins, organizers, and participants.and efficient data management using Node.js, Express.js, MongoDB, and Redis. Integrated with CI/CD pipelines and Docker.",
+    tags: [
+      {
+        name: "NextJs",
         color: techColors.react,
       },
       {
@@ -227,52 +238,34 @@ const projects = [
         name: "ExpressJs",
         color: techColors.default,
       },
-    ],
-    image: Lavoux,
-    source_code_link: "https://github.com/Pidugu-vivek/LaVoux",
-    live_link: "https://la-voux.vercel.app/",
-  },
-  {
-    name: "Disney+ Clone",
-    description:
-      "Disney+ Clone is a React and Firebase-based website that replicates the look and feel of the popular Disney+ streaming service. Enjoy the magical ambiance of Disney, Marvel, and Star Wars on this captivating platform",
-    tags: [
-      {
-        name: "ReactJs",
-        color: techColors.react,
-      },
-      {
-        name: "Firebase",
-        color: techColors.firebase,
-      },
-      {
-        name: "Redux Toolkit",
-        color: techColors.redux,
-      },
-    ],
-    image: disneyClone,
-    source_code_link: "https://github.com/rahul23-s/disney-plus-clone",
-    live_link: "https://disneyplus-clone-e429d.web.app/home",
-  },
-  {
-    name: "My Webfolio",
-    description:
-      "The Website you are currently on, My Portfolio website  which showcases my work, built with ReactJs and React-Three-Fiber (ThreeJs), featuring a mesmerizing space-themed design and stunning 3D models.",
-    tags: [
-      {
-        name: "ReactJs",
-        color: techColors.react,
-      },
-      {
-        name: "ThreeJs",
-        color: techColors.default,
-      },
       {
         name: "Tailwind CSS",
         color: techColors.tailwind,
       },
     ],
-    image: webfolio,
+    image: coloseum,
+    source_code_link: "https://github.com/Colosseum-IIITS/Colosseum",
+    live_link: "https://colosseum-zeta.vercel.app",
+  },
+  {
+    name: "URL Shortner",
+    description:
+      "The URL Shortener is a Django-based web application that converts long URLs into concise, easily shareable links. It features a collision-resistant code generation algorithm to ensure each short URL is unique and reliable. Users can securely create and manage their shortened links through Django’s built-in authentication system, while the backend uses SQLite and Django ORM for efficient data storage and retrieval. This project demonstrates practical backend design, secure user management, and clean database structuring.",
+    tags: [
+      {
+        name: "Django",
+        color: techColors.react,
+      },
+      {
+        name: "NodeJs",
+        color: techColors.nodejs,
+      },
+      {
+        name: "HTML",
+        color: techColors.default,
+      },
+    ],
+    image: url,
     live_link: "scroll-up",
   },
 ];
