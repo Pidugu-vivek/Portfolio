@@ -12,7 +12,7 @@ import {
   vue,
   angular,
   kraftConcept,
-  babble,
+  Lavoux,
   disneyClone,
   scss,
   threejs,
@@ -26,7 +26,7 @@ import {
 } from "../assets";
 
 export const RESUME_LINK =
-  "https://drive.google.com/uc?export=download&id=1gaygaem_O5AV9qSuBLvb2lNBcOJQ2vrZ";
+  "https://drive.google.com/file/d/1bbeucMSI8z9ipxybPkmf4qicU9XQpLbM/view?usp=drive_link";
 
 const techColors = {
   react: "#61dbfb",
@@ -207,13 +207,13 @@ const experiences = []; // kept empty on purpose
 
 const projects = [
   {
-    name: "Babble",
+    name: "Lavoux",
     description:
-      "Babble is a Web-based chat platform that supports both individual and group chats, using Socket.IO for real-time interactions. Connect, chat, and engage with others effortlessly on Babble.",
+      "La Voux is a full-stack MERN e-commerce platform featuring product browsing, advanced search, and secure checkout with Stripe.It includes a robust backend with JWT authentication, Redis caching, and optimized REST APIs for high performance.The platform also offers an admin dashboard for managing products, orders, and users, with Docker-based deployment and CI/CD support.",
     tags: [
       {
-        name: "VueJs",
-        color: techColors.vue,
+        name: "ReactJs",
+        color: techColors.react,
       },
       {
         name: "NodeJs",
@@ -224,13 +224,13 @@ const projects = [
         color: techColors.mongodb,
       },
       {
-        name: "Socket.io",
+        name: "ExpressJs",
         color: techColors.default,
       },
     ],
-    image: babble,
-    source_code_link: "https://github.com/rahul23-s?tab=repositories&q=Babble",
-    live_link: "https://letsbabble.netlify.app/",
+    image: Lavoux,
+    source_code_link: "https://github.com/Pidugu-vivek/LaVoux",
+    live_link: "https://la-voux.vercel.app/",
   },
   {
     name: "Disney+ Clone",

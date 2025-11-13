@@ -28,7 +28,7 @@ import kraftConcept from "./company/kraftConcept.jpg";
 
 import astroLoader from "./astro-loader.json";
 import carrent from "./carrent.png";
-import babble from "./project/Babble.png";
+import Lavoux from "./project/Lavoux.png";
 import disneyClone from "./project/DisneyClone.png";
 import webfolio from "./project/Webfolio.png";
 
@@ -212,7 +212,7 @@ export {
   fyndAcademy,
   kraftConcept,
   download,
-  babble,
+  Lavoux,
   disneyClone,
   webfolio,
   linkedin,

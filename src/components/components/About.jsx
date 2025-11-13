@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../../styles";
-import { navLinks, technologies } from "../../constants";
+import { navLinks, technologies, RESUME_LINK } from "../../constants";
 import { fadeIn, textVariant } from "./../../utils/motion";
 import { SectionWrapper } from "../../hoc";
 import { download } from "../../assets";
