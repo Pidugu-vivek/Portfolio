@@ -18,7 +18,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className={`${styles.sectionSubText} text-white-100 text-center`}>
-            I create immersive Web experiences
+            I develop some Web applications
           </p>
         </div>
       </div>
