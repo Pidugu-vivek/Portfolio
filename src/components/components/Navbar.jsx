@@ -63,9 +63,7 @@ const Navbar = ({ activeSection, setActiveSection, isMobile }) => {
               key={link.id}
               className={`${
                 activeSection === link.title
-                  ? link.id === "contact"
-                    ? "contact-nav-link"
-                    : "active-nav-link"
+                  ? "active-nav-link"
                   : "text-white"
               } hover:text-white text-[18px] font-medium cursor-pointer nav-link`}
               onClick={() => {
@@ -108,9 +106,7 @@ const Navbar = ({ activeSection, setActiveSection, isMobile }) => {
                   key={link.id}
                   className={`${
                     activeSection === link.title
-                      ? link.id === "contact"
-                        ? "contact-nav-link"
-                        : "active-nav-link"
+                      ? "active-nav-link"
                       : "text-white"
                   } font-medium cursor-pointer text-[16px] nav-link`}
                   onClick={() => {
