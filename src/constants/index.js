@@ -18,7 +18,7 @@ import {
 } from "../assets";
 
 export const RESUME_LINK =
-  "https://drive.google.com/file/d/1bbeucMSI8z9ipxybPkmf4qicU9XQpLbM/view?usp=drive_link";
+  "https://drive.google.com/file/d/1rtK5dMjgpizS8jOrWIWNYNth9PyUh3hy/view?usp=drive_link";
 
 const techColors = {
   react: "#61dbfb",
@@ -56,7 +56,7 @@ export const navLinks = [
     id: "github",
     title: "GitHub",
     icon: githubIcon, // use the component, not the png
-    url: "https://github.com/your-username",
+    url: "https://github.com/Pidugu-vivek",
   },
 ];
 
