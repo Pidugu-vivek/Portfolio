@@ -12,6 +12,7 @@ declare global {
   }
 }
  
+
 const Robot3D = () => {
   const viewerRef = useRef<HTMLElement>(null);
 
