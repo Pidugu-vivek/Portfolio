@@ -18,7 +18,7 @@ import {
 } from "../assets";
 
 export const RESUME_LINK =
-  "https://drive.google.com/file/d/1C9JbEkGkhXFVi2uc0qJgTtDiYHkrk7N5/view?usp=drive_link";
+  "https://drive.google.com/file/d/1H7nLQ_eU12NnBfLUYLqRArs-I1k1nQNA/view?usp=drive_link";
 
 const techColors = {
   react: "#61dbfb",
